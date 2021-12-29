@@ -43,31 +43,31 @@ function renderLicenseLink(license) {
     return `
     # ${title}
     ${renderLicenseBadge(license)}
-    ## Description 
+    ##Description 
     ${description}
-    ## Table of Contents
+    ##Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license)
     * [Contributing](#contributing)
     * [Questions](#questions)
-    ## Installation
+    ##Installation
     To install dependencies, run the following command:
     <br/>
     ${dependency}
-    ## Usage
+    ##Usage
     ${disclaimer}
-    ## License
+    ##License
     ${renderLicenseSection(license)}
     <br/>
     ${renderLicenseLink(license)}
-    ## Contributing
+    ##Contributing
     ${contribution}
-    ## Tests
+    ##Tests
     To run tests, use the following command:
     <br/>
     ${test}
-    ## Questions
+    ##Questions
     If you have any questions, concerns, or recommendations feel free to contact me through my email:
     <br />
     ${email}

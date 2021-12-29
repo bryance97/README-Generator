@@ -1,34 +1,34 @@
 
-    # fdgdfgdf
+    # Test Project
     ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-    ## Description 
-    gdfg
-    ## Table of Contents
+    ##Description 
+    this project tests that the code runs perfectly thorugh terminal
+    ##Table of Contents
     * [Installation](#installation)
     * [Usage](#usage)
     * [License](#license)
     * [Contributing](#contributing)
     * [Questions](#questions)
-    ## Installation
+    ##Installation
     To install dependencies, run the following command:
     <br/>
     undefined
-    ## Usage
+    ##Usage
     undefined
-    ## License
+    ##License
     This applicaton is covered under the MIT license.
     <br/>
     (https://opensource.org/licenses/MIT)
-    ## Contributing
+    ##Contributing
     undefined
-    ## Tests
+    ##Tests
     To run tests, use the following command:
     <br/>
     npm test
-    ## Questions
+    ##Questions
     If you have any questions, concerns, or recommendations feel free to contact me through my email:
     <br />
-    dffhfgh
+    bryancifuentesescobar@gmail.com
     <br/>
     You can also contribute to my other projects at:
     <br/>
