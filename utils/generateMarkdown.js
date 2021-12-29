@@ -39,58 +39,58 @@ function renderLicenseLink(license) {
   
   // TODO: Create a function to generate markdown for README
   function generateMarkdown(input) {
-    const { license, title, description, dependency, disclaimer, contribution, test, email, username } = input;
-    return `
-    # ${title}
-    ${renderLicenseBadge(license)}
+  const { license, title, description, dependency, disclaimer, contribution, test, email, username } = input;
+  return `
+  # ${title}
+  ${renderLicenseBadge(license)}
 
-    ##Description 
-    ${description}
+  ## Description 
+  ${description}
 
-    ##Table of Contents
+  ## Table of Contents
 
-    * [Installation](#installation)
+  * [Installation](#installation)
 
-    * [Usage](#usage)
+  * [Usage](#usage)
 
-    * [License](#license)
+  * [License](#license)
 
-    * [Contributing](#contributing)
+  * [Contributing](#contributing)
 
-    * [Questions](#questions)
+  * [Questions](#questions)
 
-    ##Installation
-    To install dependencies, run the following command:
-    <br/>
-    ${dependency}
+  ## Installation
+  To install dependencies, run the following command:
+  <br/>
+  ${dependency}
 
-    ##Usage
-    ${disclaimer}
+  ## Usage
+  ${disclaimer}
 
-    ##License
-    ${renderLicenseSection(license)}
-    <br/>
-    ${renderLicenseLink(license)}
+  ## License
+  ${renderLicenseSection(license)}
+  <br/>
+  ${renderLicenseLink(license)}
 
-    ##Contributing
-    ${contribution}
+  ## Contributing
+  ${contribution}
 
-    ##Tests
-    To run tests, use the following command:
-    <br/>
-    ${test}
-    
-    ##Questions
-    If you have any questions, concerns, or recommendations feel free to contact me through my email:
-    <br />
-    ${email}
-    <br/>
-    You can also contribute to my other projects at:
-    <br/>
-    https://github.com/${username}/
+  ## Tests
+  To run tests, use the following command:
+  <br/>
+  ${test}
+
+  ## Questions
+  If you have any questions, concerns, or recommendations feel free to contact me through my email:
+  <br />
+  ${email}
+  <br/>
+  You can also contribute to my other projects at:
+  <br/>
+  https://github.com/${username}/
   `;
-  }
+}
   
-  module.exports = {
-    generateMarkdown
-  }
+module.exports = {
+  generateMarkdown
+}
