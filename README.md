@@ -1,44 +1,51 @@
+# Test Project
 
-    # Test Project
-    ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-    
-    ## Description 
-    this project tests that the code runs perfectly thorugh terminal
-    
-    ##Table of Contents
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-    * [Installation](#installation)
+## Description
 
-    * [Usage](#usage)
+this project tests that the code runs perfectly thorugh terminal
 
-    * [License](#license)
+##Table of Contents
 
-    * [Contributing](#contributing)
+- [Installation](#installation)
 
-    * [Questions](#questions)
+- [Usage](#usage)
 
-    ## Installation
-    To install dependencies, run the following command:
-    <br/>
-    undefined
+- [License](#license)
 
-    ## Usage
-    undefined
+- [Contributing](#contributing)
 
-    ## License
-    This applicaton is covered under the MIT license.
-    <br/>
-    (https://opensource.org/licenses/MIT)
-    
-    ## Contributing
-    undefined
-    
-    ## Tests
+- [Questions](#questions)
+
+## Installation
+
+To install dependencies, run the following command:
+<br/>
+undefined
+
+## Usage
+
+undefined
+
+## License
+
+This applicaton is covered under the MIT license.
+<br/>
+(https://opensource.org/licenses/MIT)
+
+## Contributing
+
+undefined
+
+## Tests
+
     To run tests, use the following command:
     <br/>
     npm test
-    
-    ## Questions
+
+## Questions
+
     If you have any questions, concerns, or recommendations feel free to contact me through my email:
     <br />
     bryancifuentesescobar@gmail.com
@@ -46,4 +53,3 @@
     You can also contribute to my other projects at:
     <br/>
     https://github.com/undefined/
-  
