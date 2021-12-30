@@ -39,7 +39,7 @@ function renderLicenseLink(license) {
   
   // TODO: Create a function to generate markdown for README
   function generateMarkdown(input) {
-  const { license, title, description, dependency, disclaimer, contribution, test, email, username } = input;
+  const { license, title, description, installation, usage, contribution, test, email, github } = input;
   return `
   # ${title}
   ${renderLicenseBadge(license)}
@@ -62,10 +62,10 @@ function renderLicenseLink(license) {
   ## Installation
   To install dependencies, run the following command:
   <br/>
-  ${dependency}
+  ${installation}
 
   ## Usage
-  ${disclaimer}
+  ${usage}
 
   ## License
   ${renderLicenseSection(license)}
@@ -87,7 +87,7 @@ function renderLicenseLink(license) {
   <br/>
   You can also contribute to my other projects at:
   <br/>
-  https://github.com/${username}/
+  https://github.com/${github}/
   `;
 }
   
