@@ -1,9 +1,9 @@
 
   # README Generator
-  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+  ![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)
 
   ## Description 
-  This application lets users create README for their projects through the command line
+  This application allows users to create README files through the command line
 
   ## Table of Contents
 
@@ -20,18 +20,18 @@
   ## Installation
   To install dependencies, run the following command:
   <br/>
-  undefined
+  npm install
 
   ## Usage
-  undefined
+  This repo maybe cloned thorugh github
 
   ## License
-  This applicaton is covered under the MIT license.
+  This applicaton is covered under the APACHE 2.0 license.
   <br/>
-  (https://opensource.org/licenses/MIT)
+  (https://opensource.org/licenses/Apache-2.0)
 
   ## Contributing
-  undefined
+  The user is allowed to edit the repo for their own use
 
   ## Tests
   To run tests, use the following command:
@@ -45,5 +45,7 @@
   <br/>
   You can also contribute to my other projects at:
   <br/>
-  https://github.com/undefined/
+  https://github.com/bryance97/
   
+  ## Walkthrough Video
+  https://watch.screencastify.com/v/5fZG53dvMPx9gv13QxdT
